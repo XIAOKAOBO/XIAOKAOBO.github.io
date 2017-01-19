@@ -1,0 +1,21 @@
+{
+  "name": "LiuyinShi's Homepage",
+  "description": "Liuyin Shi's personal page",
+  "main": "main.html",
+  "keywords": [
+    "personalpage"
+  ],
+  "authors": [
+    "Liuyin Shi"
+  ],
+  "license": "MIT",
+  "homepage": "main.html",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
