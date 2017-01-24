@@ -14,7 +14,7 @@
         <link href="css/bootstrap-social.css" rel="stylesheet">
     </head>
 
-    <body data-spy="scroll" data-target = ".navbar" data-offset="100">
+    <body data-spy="scroll" data-target = ".navbar" data-offset="100" style="font-color:white">
        <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
             <div class="container">
                <div class="navbar-header">
@@ -24,11 +24,11 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="main.html">Shi Liuyin Homepage</a>
+                    <a class="navbar-brand" href="index.html">Shi Liuyin Homepage</a>
                 </div>
                 <div id="navbar" class="navbar-collapse collapse">               
                 <ul class="nav navbar-nav">
-                    <li class="active"><a href="main.html"><span class="glyphicon glyphicon-home"
+                    <li class="active"><a href="index.html"><span class="glyphicon glyphicon-home"
                          aria-hidden="true"></span> Home</a></li>
                     <li><a href="#about"><span class="glyphicon glyphicon-info-sign"
                          aria-hidden="true"></span> About</a></li>
@@ -71,6 +71,9 @@
         
         <div class="container row-header">
             <div class="row">
+                <video autoplay="" loop="" poster="img/shanghai.mp4" id="bgvid"  muted="">
+                    <source src="img/shanghai.mp4" type="video/mp4">
+                </video>
                 <div class="col-xs-12 col-sm-8">
                     <h1>Liuyin Shi</h1>
                     <p style="padding:40px;"></p>
@@ -274,7 +277,7 @@
                     <img style="padding:5px"src="img/mpc.jpg" class="img-thumbnail">
                 </div>              
                 <div class="col-xs-12 col-sm-8">
-                    <h2 style="padding:5px align:right"><strong>Experiences</strong></h2>
+                    <h2 style="padding:5px,align:right"><strong>Experiences</strong></h2>
                     <h3>McMaster Programming Challenge</h3>
                     <p style="text-indent:50px">
                         My teammates and I entered the programming competition held by IEEE student branch in 2015 and 2016. The competition are open to all students including Phd and graduate students from all departments.
@@ -336,8 +339,8 @@
         <div class="row row-content col-xs-12 col-sm-12" id="resume">
             
             <h2 style="text-align:center"><strong>Resume</strong></h2>
-            <div class="col-sm-12" >
-                <iframe class="embed-responsive-item" height=800 width=1000  src="https://docs.google.com/document/d/1gQSQ_oYTBrUZ0EyTnh9sASEfdcCm4o8_wSZpa1lOlt0/pub?embedded=true"></iframe>
+            <div class="col-sm-12" class="embed-responsive">
+                <iframe class="embed-responsive-item" style="min-width:100%"  src="https://docs.google.com/document/d/1gQSQ_oYTBrUZ0EyTnh9sASEfdcCm4o8_wSZpa1lOlt0/pub?embedded=true"></iframe>
             </div>
         </div>
 
